@@ -1,0 +1,240 @@
+body {
+  font-size: 16px;
+  background-color: #7db0e8;
+  color: #8affe3;
+  margin: 0 auto;
+  padding: 0.25rem 1.5rem 0 1.5rem;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.g {
+  display: grid;
+}
+
+header {
+  padding: 0.5rem 0 0.5rem 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  background-color: #7db0e8;
+  border-bottom: 2px solid #6f84cf;
+  font-family: "Playfair Display";
+}
+
+#headerContent {
+  margin: 0 auto;
+  border-radius: 50px 30px;
+  width: 95%;
+  background-color: #1f2363;
+  padding: 0.5rem 0 0.5rem 0;
+  justify-content: center;
+}
+
+#headerContent a {
+  color: #97e2ff;
+}
+
+#headerContent a:hover {
+  color: #CBBA7F;
+}
+
+nav ul li {
+  display: inline;
+  font-size: 2rem;
+  margin: 1.5rem 1.5rem 1.5rem 0;
+}
+
+nav ul li:last-of-type {
+  margin-right: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #6f84cf;
+}
+
+main {
+  margin-top: 4.5rem;
+  background-color: #97e2ff;
+  font-family: "Roboto Mono";
+  padding: 1rem 1.5rem 0 1.5rem;
+  grid-template-columns: 0.5rem 3rem 1fr 0.5rem;
+}
+
+.color {
+  width: 100px;
+  height: 50px;
+}
+
+#colorSwatch {
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+#c1 {
+  background-color: #6f84cf;
+}
+
+#c2 {
+  background-color: #7db0e8;
+}
+
+#c3 {
+  background-color: #97e2ff;
+}
+
+#c4 {
+  background-color: #7de5e8;
+}
+
+#c5 {
+  background-color: #8affe3;
+}
+
+#c6 {
+  background-color: #F1DD63;
+}
+
+#c7 {
+  background-color: #A79950;
+}
+
+#c8 {
+  background-color: #CBBA7F;
+}
+
+#c9 {
+  background-color: #D98168;
+}
+
+#c10 {
+  background-color: #73463D;
+}
+
+#c12 {
+  background-color: #e5c67d;
+}
+
+#c11 {
+  background-color: #1f2363;
+}
+
+#about {
+  height: 200px;
+  width: 100%;
+  color: #1f2363;
+}
+
+#aboutImg {
+  background-image: url("../images/self2.JPG");
+  width: 400px;
+  height: 200px;
+  background-repeat: none;
+  background-size: cover;
+  margin-right: 1rem;
+}
+
+#aboutDescription {
+  justify-content: center;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+#sep1, #sep2 {
+  background-image: url("../images/palm.JPG");
+  height: 50px;
+  width: 50%;
+  margin: 2rem auto;
+  background-size: contain;
+}
+
+#sep2 {
+  width: 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#portfolio h2 {
+  background-color: #7de5e8;
+  color: #1f2363;
+  text-align: center;
+  padding: 1rem 0 1rem 0;
+  font-size: 1.75rem;
+  font-family: "Playfair Display";
+}
+
+#social {
+  justify-content: center;
+}
+
+#social li {
+  display: inline;
+}
+
+#contact {
+  text-align: center;
+  color: #6f84cf;
+  padding-bottom: 1rem;
+}
+
+#contact h2 {
+  background-color: #7de5e8;
+  color: #1f2363;
+  text-align: center;
+  padding: 1rem 0 1rem 0;
+  font-size: 1.75rem;
+  font-family: "Playfair Display";
+  margin-bottom: 1rem;
+}
+
+#contact p {
+  margin-bottom: 1rem;
+}
+
+.project {
+  background-color: #D98168;
+  color: #1f2363;
+  margin: 1rem auto;
+  width: 80%;
+  padding: 1rem;
+  line-height: 1.2;
+}
+
+.project p {
+  padding-left: 3rem;
+  padding-right: 2rem;
+}
+
+.project a {
+  color: #CBBA7F;
+}
+
+.y {
+  background-color: #e5c67d;
+}
+
+.y .title a {
+  color: #73463D;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #6f84cf;
+}
+
+footer {
+  margin-bottom: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
