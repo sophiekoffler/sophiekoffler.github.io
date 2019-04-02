@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Sophie Koffler's Portfolio</title>
+    <title>Sophie Koffler</title>
     <link type="text/css" rel="stylesheet" href="./resources/css/reset.css" />
     <link type="text/css" rel="stylesheet" href="./resources/css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Playfair+Display|Quicksand|Roboto+Mono" rel="stylesheet">
@@ -12,10 +12,9 @@
       <div id="headerContent" class="horizontal">
         <nav>
           <ul >
-            <!-- <li><a href="">Home</a></li> -->
             <li><a href="#">About</a></li>
             <li><a href="#sep1">Portfolio</a></li>
-            <li><a href="./resources/Sophie Koffler Resume.pdf">Resume</a></li>
+            <li><a target="_blank" href="./resources/Sophie Koffler Resume.pdf">Resume</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -23,66 +22,104 @@
     </header>
 
     <main id="main" class="">
-      <div id="about"class="horizontal">
-        <div id="aboutImg">
-
-        </div><!-- aboutImg -->
-        <div id="aboutDescription" class="vertical">
-          <p>Hello, I'm Sophie Koffler and I'm a web developer. I recently graduated from UMASS with a Master's in Computer Science, so while I'm seeking a front-end web development job I actually have the skills to do the full stack. Having doubled as an artist, I also bring a sense of style and a highly creative edge to the table which complement my technical skills and educational background.</p>
-          <p></p>
-          <p>Please check out my portfolio which includes a website for my jewelry business and a portfolio of various art mediums I've explored. </p>
-        </div><!-- aboutDescription -->
+      <div id="about" >
+        <div id="aboutC" >
+        <img id="aboutImg" class="element" src="./resources/images/self2.png" >
+          <span id="aboutI">Hello, I'm Sophie Koffler, a web developer seeking a front-end development position. Recently graduated from UMASS with a Master's in Computer Science, I have the skills to implement the full stack. Complementing my technicals skills and educational background are the sense of style and highly creative edge I've honed over the years engaged in artistic pursuits. Please check out my portfolio which includes a website for my jewelry business as well as a collection of works from various art mediums I've explored. Clicking on the title of a project will link you to a live version; the code can be found on my github account. <br />
+          <br />
+          Please enjoy. I look forward to hearing from you.
+    </span>
+        </div><!-- aboutC -->
       </div><!-- about -->
       <div id="sep1">
       </div>
-      <div id="portfolio">
-        <h2>Portfolio</h2>
-     <div id="p1C">
-        <div id="p1" class="project vertical y">
-          <h3 id="p1Title" class="title">
-            <a href="www.slkdesignsjewelery.com " id="p1Link">slkdesignsjewelery.com  </a>
-          </h3>
-          <p id="p1Desc" class="description">This project allowed me to explore the process of designing and creating a website from start to finish. The site is a portfolio site for SLK Designs, my handcrafted artisan jewelry business. The site is responsive and dynamic. The content displayed on the necklace and earrings pages reflects current inventory. The site is scripted in php and utilizes javascript, AJAX and mysql. The implementation for the necklace and earrings pages differ. The necklace information is pulled from the database through an AJAX call while the earrings information is read from a JSON file stored on the server.</p>
+      <div id="portfolio" class="vertical">
+        <h2>Projects</h2>
+        <div id="p1RC">
+          <div id="p1R" class="project rotate y">
+            <div id="p1C" class="un-rotate">
+              <h3 id="p1Title" class="title">
+                <a target="_blank" href="www.slkdesignsjewelery.com " id="p1Link">slkdesignsjewelery.com  </a>
+              </h3>
+              <p id="p1Desc" class="description">This project allowed me to explore the process of designing a website in its entirety. This site's purpose is to serve as a portfolio for SLK Designs, my handcrafted artisan jewelry business. The site is fully responsive and dynamic. The content displayed on the necklace and earrings pages reflect current inventory. The site is scripted in php and utilizes javascript, AJAX and mysql. The implementation used to populate the necklace and earring pages differ, as the data for each subset was stored in a different manner on the server. This provided me the opportunity to handle both cases. Necklace data is pulled from a database by a php script that is executed through an AJAX call. Earring data is simply read from a JSON file stored on the server.</p>
+            </div><!-- p1C -->
+          </div>
         </div>
-      </div><!-- p1C -->
-        <div id="p2" class="project vertical">
-          <h3 id="p2Title" class="title">
-            <a href="https://sophiekoffler.github.io/Colmar-Academy/" id="p2Link">Colmar Academy  </a>
-          </h3>
-          <p id="p2Desc" class="description">Colmar Academy is the capstone project from Codeacademy's Pro Intensive Build Websites from Scratch. The site is a landing page for a fictitious university and illustrates skills learned in the course, including ability to deliver product according to spec. In this case the layout was provided in the spec and typography and color scheme was left up to the student. The layout was constructed using css flexbox. </p>
+        <div id="row2" class="horizontal">
+          <div id="p2R" class="project rotate">
+            <div id="p2C" class="un-rotate">
+              <h3 id="p2Title" class="title">
+                <a target="_blank" href="https://sophiekoffler.github.io/Colmar-Academy/" id="p2Link">Colmar Academy  </a>
+              </h3>
+              <p id="p2Desc" class="description">Colmar Academy was the capstone project from Codeacademy's Pro Intensive, Build Websites from Scratch. The site is a landing page for a fictitious university and illustrates skills learned in the course which was an introduction to front end develpment focusing mainly on html and css. The layout was constructed with flexbox and overall the project demonstrates my ability to deliver a project to spec. The specs can be found on my github account.  </p>
+            </div><!-- p2C -->
+          </div>
+          <div id="p3R" class="project rotate ">
+            <div id="p3C" class="un-rotate">
+              <h3 id="p3Title" class="title">
+                <a target="_blank" href="https://sophiekoffler.github.io/colorstry/" id="p3Link">Colorful Artistry  </a>
+              </h3>
+              <p id="p3Desc" class="description">Colorful Artistry is a project designed to explore the css grid layout and play around with its ease at making sites responsive as well as its ability to construct layouts than were not possible with flexbox. The content of the site showcases some of the artwork I've done, categorized by medium. </p>
+            </div><!-- p3C -->
+          </div>
+      </div><!-- row2 -->
+      <div id="p4RC">
+        <div id="p4R" class="project rotate">
+          <div id="p4C" class="un-rotate">
+            <h3 id="p4Title" class="title">
+              <a target="_blank" href="https://sophiekoffler.github.io/hot-air-balloon/ " id="p4Link">Hot Air Balloon  </a>
+            </h3>
+            <p id="p4Desc" class="description">Hot Air Balloon is a web page designed to explore css grid. It documents a hot air balloon ride taken in Taos, New Mexico through photos and comments.  </p>
+          </div><!-- p1C -->
         </div>
-        <div id="p3" class="project vertical y">
-          <h3 id="p3Title" class="title">
-            <a href=" " id="p3Link">Colorful Artistry  </a>
-          </h3>
-          <p id="p3Desc" class="description">Colorful Artistry is a project that was designed to explore the css grid layout and play around with its ability to make responsive sites as well as its ability to allow for different layouts than were possible to create using grid. The content of the site showcases some of the artwork I've done, categorized by medium. </p>
+      </div>
+      <div id="p5RC">
+        <div id="p5R" class="project rotate y">
+          <div id="p5C" class="un-rotate">
+            <h3 id="p5Title" class="title">
+              <a target="_blank" href="https://sophiekoffler.github.io/Grid-Play/ " id="p5Link">Grid-Play  </a>
+            </h3>
+            <p id="p5Desc" class="description">Graphic design illustrating the power of css grid. This project is best enjoyed by opening it in a desktop browser and veiwing the way the design adapts as you decrease the width of the browser. This is all done through grid, no media queries needed.  </p>
+          </div><!-- p1C -->
         </div>
-        <div id="p4" class="project vertical">
-          <h3 id="p4Title" class="title">
-            <a href="https://sophiekoffler.github.io/hot-air-balloon/ " id="p4Link">Hot Air Balloon  </a>
-          </h3>
-          <p id="p4Desc" class="description">Hot Air Balloon is a web page designed to explore css grid. It documents a hot air balloon ride taken in Taos, New Mexico through photos and comments.  </p>
-        </div>
-        <div id="p5" class="project vertical y">
-          <h3 id="p5Title" class="title">
-            <a href="https://sophiekoffler.github.io/Grid-Play/ " id="p5Link">Grid-Play  </a>
-          </h3>
-          <p id="p5Desc" class="description">Responsive design that illustrates the power of css grid. This can be seen by opening the project in a desktop browser and veiwing the way the design adapts as you change the width of the browser. This is all done through grid, no media queries needed.  </p>
-        </div>
+      </div>
+      <div id="row3" class="horizontal">
+          <div id="p4R" class="project rotate">
+            <div id="p4C" class="un-rotate">
+              <h3 id="p4Title" class="title">
+                <a target="_blank" href="https://sophiekoffler.github.io/hot-air-balloon/ " id="p4Link">Hot Air Balloon  </a>
+              </h3>
+              <p id="p4Desc" class="description">Hot Air Balloon is a web page designed to explore css grid. It documents a hot air balloon ride taken in Taos, New Mexico through photos and comments. </p>
+            </div><!-- p1C -->
+          </div>
+          <div id="p5R" class="project rotate y">
+            <div id="p5C" class="un-rotate">
+              <h3 id="p5Title" class="title">
+                <a target="_blank" href="https://sophiekoffler.github.io/Grid-Play/ " id="p5Link">Grid-Play  </a>
+              </h3>
+              <p id="p5Desc" class="description">Graphic design illustrating the power of css grid. This project is best enjoyed by opening it in a desktop browser and veiwing the way the design adapts as you decrease the width of the browser. This is all done through grid, no media queries needed.  </p>
+            </div><!-- p1C -->
+          </div>
+      </div><!-- row3 -->
       </div> <!-- portfolio -->
       <div id="sep2">
       </div>
       <div id="contact">
-        <h2>Contact</h2>
-        <p>Please contact me: <a href="mailto:skoffler@gmail.com">skoffler[at]gmail[dot]com</a></p>
+        <div id="contactC">
+          <h2>Contact</h2>
+        </div><!-- contact C-->
+        <p><a href="mailto:skoffler@gmail.com">skoffler[at]gmail[dot]com</a></p>
         <ul id="social" class="horizontal">
           <li><a href="https://www.linkedin.com/in/sophiekoffler/"><img
-            src="./resources/images/linkedIn.png" /></a></li>
-          <li><a href=""><img src="./resources/images/github.png" /></a></li>
+            src="./resources/images/lI.png" /></a></li>
+          <li><a href="https://github.com/sophiekoffler"><img src="./resources/images/github.png" /></a></li>
         </ul>
-
+  <!--      <ul id="socialM" class="horizontal">
+          <li><a href="https://www.linkedin.com/in/sophiekoffler/"><img
+            src="./resources/images/lI.png" /></a></li>
+          <li><a href="https://github.com/sophiekoffler"><img src="./resources/images/github.png" /></a></li>
+        </ul> -->
       </div><!-- contact -->
-
     </main>
     <footer>
     </footer>
