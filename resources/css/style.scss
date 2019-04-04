@@ -158,11 +158,12 @@ main {margin-top:3.9rem;
 #p4RC {border-bottom:$color1 solid 2px;}
 #p4R {margin:-15rem auto;
       background-color:$color10;
-      width:400px;
-      height:400px;
+      width:450px;
+      height:450px;
       color:$color1;}
-#p4C {padding-top:7rem;}
-
+#p4C {padding-top:7rem;
+      padding-left:3.5rem;}
+#p5RC {margin-top:5rem;}
 #p5R {width:400px;
       height:400px;
       margin:12rem auto;
@@ -178,7 +179,7 @@ main {margin-top:3.9rem;
 footer {margin-bottom: 1rem;}
 #row3 {display:none;}
 
-@media only screen and (max-width:1600px){
+@media only screen and (max-width:1695px){
   #p1R, #p2R, #p3R, #p4R, #p5R {height:auto;
             padding-bottom:2rem;}
   #about {padding-top:0;}
@@ -202,7 +203,7 @@ footer {margin-bottom: 1rem;}
         border-bottom:none;}
   #p4C {padding-left:3rem;
         padding-top:3rem;}
-  #p5RC {margin-top:-8rem;
+  #p5RC {margin-top:-2rem;
         z-index:7;}
   #p5R {width: 500px;
     margin-bottom:1rem;}
@@ -217,7 +218,7 @@ footer {margin-bottom: 1rem;}
 #p4R {margin-top:-5rem;
       width:450px;}
 #p4C {width:90%;}
-#p5RC{margin-top: 0;}
+#p5RC{margin-top: 2rem;}
 #aboutI {font-size:1rem;}
 }
 
@@ -271,7 +272,7 @@ footer {margin-bottom: 1rem;}
     border:none;
     height:auto;
    padding:2rem 0;}
-
+#p5RC{margin-top: 0rem;}
    #p2Desc,#p4Desc {
      padding-bottom:1rem;
      border-top:none;

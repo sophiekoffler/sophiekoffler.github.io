@@ -264,13 +264,18 @@ main {
 #p4R {
   margin: -15rem auto;
   background-color: #73463D;
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
   color: #6f84cf;
 }
 
 #p4C {
   padding-top: 7rem;
+  padding-left: 3.5rem;
+}
+
+#p5RC {
+  margin-top: 5rem;
 }
 
 #p5R {
@@ -308,7 +313,7 @@ footer {
   display: none;
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1695px) {
   #p1R, #p2R, #p3R, #p4R, #p5R {
     height: auto;
     padding-bottom: 2rem;
@@ -378,7 +383,7 @@ footer {
   }
 
   #p5RC {
-    margin-top: -8rem;
+    margin-top: -2rem;
     z-index: 7;
   }
 
@@ -409,7 +414,7 @@ footer {
   }
 
   #p5RC {
-    margin-top: 0;
+    margin-top: 2rem;
   }
 
   #aboutI {
@@ -535,6 +540,10 @@ footer {
     border: none;
     height: auto;
     padding: 2rem 0;
+  }
+
+  #p5RC {
+    margin-top: 0rem;
   }
 
   #p2Desc, #p4Desc {
