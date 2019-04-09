@@ -193,6 +193,12 @@ main {
   color: #CBBA7F;
 }
 
+.title:hover + p {
+  border-top: #8affe3 solid 3px;
+  border-left: none;
+  transition: all 0.25s ease 0.5s;
+}
+
 .y {
   background-color: #e5c67d;
 }
@@ -579,6 +585,13 @@ footer {
 
   #portfolio h2, #contact h2 {
     padding: 0.5rem 0 0.5rem 0;
+  }
+
+  #p4Title:hover + p, #p2Title:hover + p {
+    border-top: #7de5e8 solid 3px;
+    border-right: none;
+    border-bottom: none;
+    transition: all 0.25s ease 0.5s;
   }
 
   #contactC {

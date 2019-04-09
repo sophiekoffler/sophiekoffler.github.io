@@ -123,6 +123,13 @@ main {margin-top:3.9rem;
             border-left:$color4 solid 2px;
             border-top: $color4  solid 2px;}
 .project a {color:$color8;}
+
+.title:hover +  p {
+    border-top: $color5 solid 3px;
+    border-left:none;
+    transition: all .25s ease .5s;
+}
+
 .y {background-color:$color12;
     }
 .y .title a{color: $color10;}
@@ -288,6 +295,13 @@ footer {margin-bottom: 1rem;}
   #row2 .un-rotate {padding-top:0;}
   #sep1 {margin-top:2rem;}
   #portfolio h2,#contact h2 {padding:.5rem 0 .5rem 0;}
+  #p4Title:hover +  p,#p2Title:hover + p {
+      border-top: $color4 solid 3px;
+
+      border-right:none;
+      border-bottom:none;
+      transition: all .25s ease .5s;
+  }
   #contactC {border-bottom: $color1 solid 1px;}
   #contact h2 {margin-bottom:.25rem;}
   #sep2 {height:35px;
