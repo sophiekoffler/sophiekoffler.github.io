@@ -11,7 +11,7 @@
   <body>
     <header >
       <div id="headerContent" class="horizontal">
-        <nav>
+        <nav role="navigation">
           <ul >
             <li><a href="#">About</a></li>
             <li><a href="#sep1">Portfolio</a></li>
@@ -22,11 +22,11 @@
       </div> <!-- headerContent -->
     </header>
 
-    <main id="main" class="">
+    <main id="main" role="main" class="">
       <div id="about" >
         <div id="aboutC" >
-        <img id="aboutImg" class="element" src="./resources/images/self2.png" >
-          <span id="aboutI">Hello, I'm Sophie Koffler, a web developer seeking a front-end development position. Recently graduated from UMASS with a Master's in Computer Science, I have the skills to implement the full stack. Complementing my technicals skills and educational background are the sense of style and highly creative edge I've honed over the years engaged in artistic pursuits. Please check out my portfolio which includes a website for my jewelry business as well as a collection of works from various art mediums I've explored. Clicking on the title of a project will link you to a live version; the code can be found on my github account. <br />
+        <img id="aboutImg" class="element" src="./resources/images/self2.png" alt="Sophie">
+          <span id="aboutI">Hello, I'm Sophie Koffler, a web developer seeking a front-end development position. Recently graduated from UMASS with a Master's in Computer Science, I have the skills to implement the full stack. Complementing my technicals skills and educational background are the sense of style and highly creative edge I've honed over the years engaged in artistic pursuits. Please check out my portfolio which includes a website for my jewelry business as well as a collection of works from various art mediums I've explored. Clicking on the title of a project will link you to a live version; the code can be found on my <a href="https://github.com/sophiekoffler">github</a> account. <br />
           <br />
           Please enjoy. I look forward to hearing from you.
     </span>
@@ -53,7 +53,7 @@
               <h3 id="p2Title" class="title">
                 <a class="pLink" target="_blank" href="https://sophiekoffler.github.io/Colmar-Academy/" id="p2Link">Colmar Academy  </a>
               </h3>
-              <p id="p2Desc" class="description">Colmar Academy was the capstone project from Codeacademy's Pro Intensive, Build Websites from Scratch. The site is a landing page for a fictitious university and illustrates skills learned in the course which was an introduction to front end develpment focusing mainly on html and css. The layout was constructed with flexbox and overall the project demonstrates my ability to deliver a project to spec. The specs can be found on my github account.  </p>
+              <p id="p2Desc" class="description">Colmar Academy was the capstone project from Codeacademy's Pro Intensive, Build Websites from Scratch. The site is a landing page for a fictitious university and illustrates skills learned in the course which was an introduction to front end development focusing mainly on html and css. The layout was constructed with flexbox and overall the project demonstrates my ability to deliver a project to spec. The specs can be found on my <a href="https://github.com/sophiekoffler">github</a> account.  </p>
             </div><!-- p2C -->
           </div>
           <div id="p3R" class="project rotate ">
@@ -83,7 +83,7 @@
             <h3 id="p5Title" class="title">
               <a class="pLink" target="_blank" href="https://sophiekoffler.github.io/Grid-Play/ " id="p5Link">Grid-Play  </a>
             </h3>
-            <p id="p5Desc" class="description">Graphic design illustrating the power of css grid. This project is best enjoyed by opening it in a desktop browser and veiwing the way the design adapts as you decrease the width of the browser. This is all done through grid, no media queries needed.  </p>
+            <p id="p5Desc" class="description">Graphic design illustrating the power of css grid. This project is best enjoyed by opening it in a desktop browser and viewing the way the design adapts as you decrease the width of the browser. This is all done through grid, no media queries needed.  </p>
           </div><!-- p1C -->
         </div>
       </div>
@@ -103,7 +103,7 @@
               <h3 id="p5Title" class="title">
                 <a target="_blank" href="https://sophiekoffler.github.io/Grid-Play/ " id="p5Link">Grid-Play  </a>
               </h3>
-              <p id="p5Desc" class="description">Graphic design illustrating the power of css grid. This project is best enjoyed by opening it in a desktop browser and veiwing the way the design adapts as you decrease the width of the browser. This is all done through grid, no media queries needed.  </p>
+              <p id="p5Desc" class="description">Graphic design illustrating the power of css grid. This project is best enjoyed by opening it in a desktop browser and viewing the way the design adapts as you decrease the width of the browser. This is all done through grid, no media queries needed.  </p>
             </div><!-- p1C -->
           </div>
       </div><!-- row3 -->
@@ -112,19 +112,17 @@
       </div>
       <div id="contact">
         <div id="contactC">
-          <h2>Contact</h2>
+          <a href="mailto:skoffler@gmail.com">
+            <h2>Contact</h2>
+          </a>
         </div><!-- contact C-->
         <p><a href="mailto:skoffler@gmail.com">skoffler[at]gmail[dot]com</a></p>
         <ul id="social" class="horizontal">
-          <li><a href="https://www.linkedin.com/in/sophiekoffler/"><img
+          <li><a href="https://www.linkedin.com/in/sophiekoffler/"><img alt="linkedIn Icon"
             src="./resources/images/lI.png" /></a></li>
           <li><a href="https://github.com/sophiekoffler"><img src="./resources/images/github.png" /></a></li>
         </ul>
-  <!--      <ul id="socialM" class="horizontal">
-          <li><a href="https://www.linkedin.com/in/sophiekoffler/"><img
-            src="./resources/images/lI.png" /></a></li>
-          <li><a href="https://github.com/sophiekoffler"><img src="./resources/images/github.png" /></a></li>
-        </ul> -->
+
       </div><!-- contact -->
     </main>
     <footer>

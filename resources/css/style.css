@@ -193,12 +193,13 @@ main {
   color: #CBBA7F;
 }
 
-.title:hover + p {
-  border-top: #8affe3 solid 3px;
-  border-left: none;
-  transition: all 0.25s ease 0.5s;
+/*
+.title:hover +  p {
+    border-top: $color5 solid 3px;
+    border-left:none;
+    transition: all .25s ease .5s;
 }
-
+*/
 .y {
   background-color: #e5c67d;
 }
